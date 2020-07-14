@@ -1,0 +1,4 @@
+import requests
+
+respones = requests.request("www.baidu.com")
+print(respones.title())
